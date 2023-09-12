@@ -26,6 +26,7 @@ export function App() {
           </Button>
         </div>
       </div>
+      
       <main className="flex-1 p-6 flex gap-6">
         <div className="flex flex-col flex-1 gap-4">
           <div className="grid grid-rows-2 gap-4 flex-1">
@@ -75,7 +76,6 @@ export function App() {
           <Separator />
 
           <form className="space-y-6">
-
           <div className="space-y-2">
               <Label>Prompt</Label>
               <Select>
